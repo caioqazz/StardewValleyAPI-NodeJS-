@@ -1,0 +1,582 @@
+[
+    {
+        "name": "Rusty Sword",
+        "level": 1,
+        "description": "A rusty, dull old sword.",
+        "damage": "2-5",
+        "criticalStrikeChance": 0.02,
+        "stats": "N/A",
+        "location": "The Mines entrance",
+        "purchasePrice": "N/A",
+        "sellPrice": "50g"
+    },
+    {
+        "name": "Wooden Blade",
+        "level": 2,
+        "description": "Not bad for a piece of carved wood.",
+        "damage": "3-7",
+        "criticalStrikeChance": 0.02,
+        "stats": "N/A",
+        "location": "Adventurer's Guild",
+        "purchasePrice": "250g",
+        "sellPrice": "100g"
+    },
+    {
+        "name": "Steel Smallsword",
+        "level": 2,
+        "description": "A standard metal blade.",
+        "damage": "4-8",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+2)",
+        "location": "The Mines floor 20 chest reward",
+        "purchasePrice": "N/A",
+        "sellPrice": "100g"
+    },
+    {
+        "name": "Silver Saber",
+        "level": 3,
+        "description": "Plated with silver to deter rust.",
+        "damage": "8-15",
+        "criticalStrikeChance": 0.02,
+        "stats": "Defense (+1)",
+        "location": "Adventurer's Guild (after unlocking the Mines floor 20)",
+        "purchasePrice": "750g",
+        "sellPrice": "150g"
+    },
+    {
+        "name": "Pirate's Sword",
+        "level": 4,
+        "description": "It looks like a pirate owned this once.",
+        "damage": "8-14",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+2)",
+        "location": "The Mines (Floors 20+)\nAdventurer's Guild (after unlocking the Mines floor 30)",
+        "purchasePrice": "850g",
+        "sellPrice": "200g"
+    },
+    {
+        "name": "Cutlass",
+        "level": 4,
+        "description": "A finely crafted blade.",
+        "damage": "9-17",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+2)",
+        "location": "Adventurer's Guild (after unlocking the Mines floor 25)",
+        "purchasePrice": "1,500g",
+        "sellPrice": "200g"
+    },
+    {
+        "name": "Iron Edge",
+        "level": 4,
+        "description": "A heavy broadsword.",
+        "damage": "12-25",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (−2) Defense (+1) Weight (+3)",
+        "location": "The Mines (Floors 40+)",
+        "purchasePrice": "N/A",
+        "sellPrice": "200g"
+    },
+    {
+        "name": "Forest Sword",
+        "level": 5,
+        "description": "Made powerful by forest magic.",
+        "damage": "8-18",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+2) Defense (+1)",
+        "location": "The Mines (Floors 20-60)",
+        "purchasePrice": "N/A",
+        "sellPrice": "250g"
+    },
+    {
+        "name": "Holy Blade",
+        "level": 5,
+        "description": "It feels hopeful to wield.",
+        "damage": "18-24",
+        "criticalStrikeChance": 0.02,
+        "stats": "Weight (+3)",
+        "location": "The Mines (Floors 60+)",
+        "purchasePrice": "N/A",
+        "sellPrice": "250g"
+    },
+    {
+        "name": "Insect Head",
+        "level": 6,
+        "description": "Not very pleasant to wield.",
+        "damage": "10-20",
+        "criticalStrikeChance": 0.04,
+        "stats": "Speed (+2)",
+        "location": "Adventurer's Guild reward for killing 125 Bugs",
+        "purchasePrice": "10,000g",
+        "sellPrice": "300g"
+    },
+    {
+        "name": "Claymore",
+        "level": 6,
+        "description": "It's really heavy.",
+        "damage": "20-32",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (−4) Defense (+2) Weight (+3)",
+        "location": "Adventurer's Guild (after unlocking the Mines floor 45)",
+        "purchasePrice": "2,000g",
+        "sellPrice": "300g"
+    },
+    {
+        "name": "Templar's Blade",
+        "level": 6,
+        "description": "It once belonged to an honorable knight.",
+        "damage": "22-29",
+        "criticalStrikeChance": 0,
+        "stats": "Defense (+1)",
+        "location": "Adventurer's Guild (after unlocking the Mines floor 55)",
+        "purchasePrice": "4,000g",
+        "sellPrice": "300g"
+    },
+    {
+        "name": "Dark Sword",
+        "level": 8,
+        "description": "It's glowing with vampire energy.",
+        "damage": "30-45",
+        "criticalStrikeChance": 0.05,
+        "stats": "Speed (-5) Weight (+5) ≈.08 chance of increasing Health, if it is below max.",
+        "location": "Haunted Skull drop",
+        "purchasePrice": "N/A",
+        "sellPrice": "400g"
+    },
+    {
+        "name": "Neptune's Glaive",
+        "level": 7,
+        "description": "An heirloom from beyond the Gem Sea.",
+        "damage": "18-35",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (−1) Defense (+2) Weight (+4)",
+        "location": "Fishing Treasure Chests (Fishing level 2+)",
+        "purchasePrice": "N/A",
+        "sellPrice": "350g"
+    },
+    {
+        "name": "Tempered Broadsword",
+        "level": 8,
+        "description": "It looks like it could withstand anything.",
+        "damage": "29-44",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (−3) Defense (+3) Weight (+3)",
+        "location": "Skull Cavern",
+        "purchasePrice": "N/A",
+        "sellPrice": "400g"
+    },
+    {
+        "name": "Obsidian Edge",
+        "level": 9,
+        "description": "It's incredibly sharp.",
+        "damage": "30-45",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (−1) Crit. Power (+10)",
+        "location": "The Mines floor 90 chest reward",
+        "purchasePrice": "N/A",
+        "sellPrice": "450g"
+    },
+    {
+        "name": "Bone Sword",
+        "level": 10,
+        "description": "A very light piece of sharpened bone.",
+        "damage": "20-30",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+4) Weight (+2)",
+        "location": "Adventurer's Guild (after unlocking the Mines floor 75)",
+        "purchasePrice": "6,000g",
+        "sellPrice": "500g"
+    },
+    {
+        "name": "Steel Falchion",
+        "level": 14,
+        "description": "Light and powerful.",
+        "damage": "28-46",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+4) Crit. Power (+20)",
+        "location": "Skull Cavern\nAdventurer's Guild (after unlocking the Mines floor 90)",
+        "purchasePrice": "9,000g",
+        "sellPrice": "700g"
+    },
+    {
+        "name": "Lava Katana",
+        "level": 15,
+        "description": "A powerful blade forged in a pool of churning lava.",
+        "damage": "55-64",
+        "criticalStrikeChance": 0.015,
+        "stats": "Defense (+3) Crit. Power (+25) Weight (+3)",
+        "location": "Adventurer's Guild (after unlocking the Mines floor 120)",
+        "purchasePrice": "25,000g",
+        "sellPrice": "750g"
+    },
+    {
+        "name": "Galaxy Sword",
+        "level": 26,
+        "description": "It's unlike anything you've ever seen.",
+        "damage": "60-80",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+4)",
+        "location": "The Desert (bring a Prismatic Shard to the Three Pillars)",
+        "purchasePrice": "50,000g",
+        "sellPrice": "1,300g"
+    },
+    {
+        
+        "name": "Carving Knife",
+        "level": 2,
+        "description": "A small, light blade.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.04,
+        "stats": "N/A",
+        "location": "The Mines (Floors 1-20)",
+        "purchasePrice": "N/A",
+        "sellPrice": "100g"
+    },
+    {
+        
+        "name": "Iron Dirk",
+        "level": 2,
+        "description": "A common dagger.",
+        "damage": "2-4",
+        "criticalStrikeChance": 0.03,
+        "stats": "N/A",
+        "location": "Adventurer's Guild (after unlocking the Mines floor 15)",
+        "purchasePrice": "500g",
+        "sellPrice": "100g"
+    },
+    {
+        
+        "name": "Wind Spire",
+        "level": 3,
+        "description": "A swift little blade.",
+        "damage": "1-5",
+        "criticalStrikeChance": 0.02,
+        "stats": "Crit. Power (+10) Weight (+5)",
+        "location": "The Mines (Floors 21-40)",
+        "purchasePrice": "N/A",
+        "sellPrice": "150g"
+    },
+    {
+        
+        "name": "Burglar's Shank",
+        "level": 8,
+        "description": "A weapon of choice for the swift and silent.",
+        "damage": "7-12",
+        "criticalStrikeChance": 0.04,
+        "stats": "Crit. Power (+25)",
+        "location": "Skull Cavern (Serpents and crates)",
+        "purchasePrice": "N/A",
+        "sellPrice": "400g"
+    },
+    {
+        
+        "name": "Crystal Dagger",
+        "level": 9,
+        "description": "The blade is made of purified quartz.",
+        "damage": "4-10",
+        "criticalStrikeChance": 0.03,
+        "stats": "Crit. Power (+50) Weight (+5)",
+        "location": "The Mines floor 60 chest reward",
+        "purchasePrice": "N/A",
+        "sellPrice": "450g"
+    },
+    {
+        
+        "name": "Broken Trident",
+        "level": 11,
+        "description": "It came from the sea, but it's still sharp.",
+        "damage": "15-26",
+        "criticalStrikeChance": 0.02,
+        "stats": "N/A",
+        "location": "Fishing treasure chests",
+        "purchasePrice": "N/A",
+        "sellPrice": "550g"
+    },
+    {
+        
+        "name": "Wicked Kris",
+        "level": 15,
+        "description": "The blade is made of an iridium alloy.",
+        "damage": "24-30",
+        "criticalStrikeChance": 0.06,
+        "stats": "N/A",
+        "location": "Skull Cavern crates",
+        "purchasePrice": "N/A",
+        "sellPrice": "750g"
+    },
+    {
+        
+        "name": "Galaxy Dagger",
+        "level": 20,
+        "description": "It's unlike anything you've seen.",
+        "damage": "30-40",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+1) Weight (+5)",
+        "location": "Adventurer's Guild (after obtaining the Galaxy Sword)",
+        "purchasePrice": "35,000g",
+        "sellPrice": "1,000g"
+    },
+    {
+        
+        "name": "Femur",
+        "level": 1,
+        "description": "An old, heavy bone caked in centuries of grime.",
+        "damage": "6-11",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+2)",
+        "location": "Found while digging outside the mines.",
+        "purchasePrice": "N/A",
+        "sellPrice": "50g"
+    },
+    {
+        
+        "name": "Wood Club",
+        "level": 2,
+        "description": "A solid piece of wood, crudely chiseled into a club shape.",
+        "damage": "9-16",
+        "criticalStrikeChance": 0.02,
+        "stats": "N/A",
+        "location": "The Mines (Floors 1-39)",
+        "purchasePrice": "N/A",
+        "sellPrice": "100g"
+    },
+    {
+        
+        "name": "Wood Mallet",
+        "level": 2,
+        "description": "The solid head packs a punch. Relatively light for a club.",
+        "damage": "15-24",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+2) Weight (+2)",
+        "location": "The Mines (Floors 40+)\nAdventurer's Guild (after unlocking the Mines floor 40)",
+        "purchasePrice": "2,000g",
+        "sellPrice": "100g"
+    },
+    {
+        
+        "name": "Lead Rod",
+        "level": 3,
+        "description": "It's incredibly heavy.",
+        "damage": "18-27",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (−4)",
+        "location": "The Mines (Floors 40+)\nSkull Cavern",
+        "purchasePrice": "N/A",
+        "sellPrice": "150g"
+    },
+    {
+        
+        "name": "The Slammer",
+        "level": 5,
+        "description": "An extremely heavy gavel that'll send foes flying.",
+        "damage": "40-55",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (−2)",
+        "location": "Skull Cavern (Floors 40+)",
+        "purchasePrice": "N/A",
+        "sellPrice": "250g"
+    },
+    {
+        
+        "name": "Galaxy Hammer",
+        "level": 9,
+        "description": "It's made from an ultra-light material you've never seen before.",
+        "damage": "70-90",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+2) Weight (+5)",
+        "location": "Adventurer's Guild (after obtaining the Galaxy Sword)",
+        "purchasePrice": "75,000g",
+        "sellPrice": "450g"
+    },
+    {
+        
+        "name": "Slingshot",
+        "description": "Requires stones for ammo.",
+        "damage": "Depends on ammo used",
+        "criticalStrikeChance": 0.02,
+        "location": "The Mines (Floor 40 chest reward)"
+    },
+    {
+        
+        "name": "Master Slingshot",
+        "description": "Requires stones for ammo.",
+        "damage": "Depends on ammo used",
+        "criticalStrikeChance": 0.02,
+        "location": "The Mines (Floor 70 chest reward)"
+    },
+    {
+        
+        "name": "Alex's Bat",
+        "Type": "Club",
+        "level": "1",
+        "description": "The sweet spot is dented from Alex's famous Grand Slam.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Weight (+5)",
+        "sellPrice": "50g"
+    },
+    {
+        
+        "name": "Sam's Old Guitar",
+        "Type": "Club",
+        "level": "1",
+        "description": "It's seen better days.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+1) Weight (+5)",
+        "sellPrice": "50g"
+    },
+    {
+        
+        "name": "Elf Blade",
+        "Type": "Dagger",
+        "level": "3",
+        "description": "Only the nimble hands of an elf could craft this.",
+        "damage": "3-5",
+        "criticalStrikeChance": 0.04,
+        "stats": "N/A",
+        "sellPrice": "150g"
+    },
+    {
+        
+        "name": "Kudgel",
+        "Type": "Club",
+        "level": "4",
+        "description": "A brute's companion.",
+        "damage": "27-40",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (−1) Crit. Power (+4) Weight (+2)",
+        "sellPrice": "200g"
+    },
+    {
+        
+        "name": "Rapier",
+        "Type": "Sword",
+        "level": "6",
+        "description": "An elegant blade.",
+        "damage": "15-25",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+2)",
+        "sellPrice": "300g"
+    },
+    {
+        
+        "name": "Harvey's Mallet",
+        "Type": "Club",
+        "level": "7",
+        "description": "It brings back memories of Harvey's clinic.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+158) Weight (+5)",
+        "sellPrice": "350g"
+    },
+    {
+        
+        "name": "Maru's Wrench",
+        "Type": "Club",
+        "level": "7",
+        "description": "A big, metal wrench. It smells like Maru.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+158) Weight (+5)",
+        "sellPrice": "350g"
+    },
+    {
+        
+        "name": "Penny's Fryer",
+        "Type": "Club",
+        "level": "7",
+        "description": "Penny's favorite frying pan. There's some rubbery gunk stuck to the inside.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+158) Weight (+5)",
+        "sellPrice": "350g"
+    },
+    {
+        
+        "name": "Seb's Lost Mace",
+        "Type": "Club",
+        "level": "7",
+        "description": "One of Sebastian's medieval replicas.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+158) Weight (+5)",
+        "sellPrice": "350g"
+    },
+    {
+        
+        "name": "Shadow Dagger",
+        "Type": "Dagger",
+        "level": "8",
+        "description": "When you hold the blade to your ear you can hear 1,000 souls shrieking.",
+        "damage": "10-20",
+        "criticalStrikeChance": 0.04,
+        "stats": "N/A",
+        "sellPrice": "400g"
+    },
+    {
+        
+        "name": "Yeti Tooth",
+        "Type": "Sword",
+        "level": "9",
+        "description": "It's icy cold to the touch.",
+        "damage": "26-42",
+        "criticalStrikeChance": 0.02,
+        "stats": "Defense (+4) Crit. Power (+10)",
+        "sellPrice": "450g"
+    },
+    {
+        
+        "name": "Haley's Iron",
+        "Type": "Sword",
+        "level": "13",
+        "description": "It's searing hot and smells like Haley's hair.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+154)",
+        "sellPrice": "650g"
+    },
+    {
+        
+        "name": "Abby's Planchette",
+        "Type": "Dagger",
+        "level": "14",
+        "description": "It's made from fine marblewood.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+154) Weight (+5)",
+        "sellPrice": "700g"
+    },
+    {
+        
+        "name": "Elliott's Pencil",
+        "Type": "Dagger",
+        "level": "14",
+        "description": "Elliott used this to write his book. It's sharp!",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+154) Weight (+5)",
+        "sellPrice": "700g"
+    },
+    {
+        
+        "name": "Leah's Whittler",
+        "Type": "Dagger",
+        "level": "14",
+        "description": "Leah's favorite tool for shaping driftwood.",
+        "damage": "1-3",
+        "criticalStrikeChance": 0.02,
+        "stats": "Speed (+154) Weight (+5)",
+        "sellPrice": "700g"
+    },
+    {
+        
+        "name": "Galaxy Slingshot",
+        "Type": "Slingshot",
+        "level": "N/A",
+        "description": "It looks really powerful.",
+        "damage": "≈4x that of a regular Slingshot using the same ammo",
+        "criticalStrikeChance": 0.02,
+        "stats": "N/A",
+        "sellPrice": "Cannot be sold"
+    }
+]

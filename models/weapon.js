@@ -13,7 +13,6 @@ const weapon = new Schema(
     location: { type: String },
     purchacePrice: { type: String },
     sellPrice: { type: String },
-    read: { type: Boolean, default: false },
   }
 );
 

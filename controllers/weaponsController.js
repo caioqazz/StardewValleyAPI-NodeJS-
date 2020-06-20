@@ -1,11 +1,13 @@
+const { getAllowedQuery } = require('../util');
+
 function weaponsController(Weapon) {
 
 
   function get(req, res) {
-    const query = {};
-    if (req.query.name) {
-      query.name = req.query.name;
-    }
+    let filter = ["name", "level", "description"];
+    let query = getAllowedQuery(req.query, filter);
+
+
     Weapon.find(query, (err, weapons) => {
       if (err) {
         return res.send(err);

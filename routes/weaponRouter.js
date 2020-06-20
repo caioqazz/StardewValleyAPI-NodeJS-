@@ -22,8 +22,7 @@ function routes() {
     });
     weaponRouter.route('/weapons/:weaponId')
         .get((req, res) => {
-            const returnFish = req.weapon.toJSON();
-            res.json(returnFish);
+            res.json(req.weapon.toJSON());
         })
     return weaponRouter;
 }

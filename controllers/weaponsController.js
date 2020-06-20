@@ -12,10 +12,11 @@ function weaponsController(Weapon) {
       if (err) {
         return res.send(err);
       }
-      const returnWeapons = weapons.map((fish) => {
-        const newWeapon = fish.toJSON();
+      const returnWeapons = weapons.map((weapon) => {
+        const newWeapon = weapon.toJSON();
+        newWeapon.image =  `http://${req.headers.host}/public/images/${newWeapon.name.split(' ').join('_')}.png`;
         newWeapon.links = {};
-        newWeapon.links.self = `http://${req.headers.host}/api/weapons/${fish._id}`;
+        newWeapon.links.self = `http://${req.headers.host}/api/weapons/${weapon._id}`;
         return newWeapon;
       });
       return res.json(returnWeapons);

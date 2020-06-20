@@ -8,7 +8,8 @@ const app = express();
 if (process.env.ENV === 'Test') {
   console.log('This is a test');
   const db = mongoose.connect('mongodb://localhost/StardewValley_Test');
-} else {
+}
+else {
   const db = mongoose.connect(
     'mongodb+srv://stard3wv4lleyuser:t9dpiIzSUFfLg3OB@cluster0-ackzz.gcp.mongodb.net/Test?retryWrites=true&w=majority',
     { useNewUrlParser: true, useUnifiedTopology: true },
@@ -27,9 +28,6 @@ const weaponRouter = require('./routes/weaponRouter')();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use(function (req, res, next) {
-  res.status(404).send("Sorry can't find that!")
-})
 
 app.use('/public/images', express.static(path.join(__dirname, 'image')))
 app.use('/api', fishRouter);
